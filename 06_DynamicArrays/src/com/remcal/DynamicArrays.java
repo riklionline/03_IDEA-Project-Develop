@@ -80,7 +80,7 @@ class numManager{
 class num{
     private double value;
 
-    public num(){};//空参构造方法
+    public num(){}//空参构造方法
     public num(double value){
         this.value=value;
     }
