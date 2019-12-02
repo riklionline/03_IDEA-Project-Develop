@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38bf2b73-52b6-4fe3-8ded-e34f639f868c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/dao/CartDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/dao/GoodsTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/dao/impl/CartDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/dao/impl/GoodsDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/dao/impl/GoodsTypeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/domain/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/domain/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/domain/GoodsType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/domain/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/service/GoodsTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/service/impl/GoodsTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/utils/Base64Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/utils/DataSourceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/utils/EmailUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/utils/Md5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/utils/RandomUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/web/filter/AutoLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/web/servlet/ActivateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/web/servlet/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/web/servlet/CartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/web/servlet/GoodsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/web/servlet/GoodsTypeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/web/servlet/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/com/remcal/web/servlet/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/src/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/WEB-INF/lib/ValidateCode.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/WEB-INF/lib/commons-dbutils-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/WEB-INF/lib/druid-1.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/WEB-INF/lib/fastjson-1.2.34.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/WEB-INF/lib/mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/admin/addGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/admin/addGoodsType.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/admin/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/admin/invalidUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/admin/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/admin/showAllOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/admin/showGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/admin/showGoodsType.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/admin/userList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/cartSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/confirm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/css/login2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/error/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/error/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/goodsDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/goodsList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/5c_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/MIX-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/compare.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/ghs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/gwc_xiaomi6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hjh_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hjh_02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hjh_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hjh_04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hjh_05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hjh_06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hm4-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hm4A-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hm4x_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hmn4x80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hmnote4-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hongmi4x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/hongmin4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/liebiao_hongmin4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/liebiao_hongmin42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/liebiao_hongmin4_dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/liebiao_hongmin4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/liebiao_xiaomi5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/liebiao_xiaomi5c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/liebiao_xiaomi5s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/liebiao_xiaomi6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/liebiao_xiaomimix.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/liebiao_xiaomint2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/liulangengduo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/logo_foot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/logo_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/mimobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/mistore_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/peijian1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/peijian10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/peijian2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/peijian3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/peijian4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/peijian5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/peijian6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/peijian7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/peijian8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/peijian9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/pinghengche.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/pinpai1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/pinpai2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/pinpai3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/pinpai4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/pinpai5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/star_red.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/xiaomi5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/xm5-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/xm5S-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/xm5Splus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/xm6_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/xmNOTE2-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/xmad_14926862610682_UhkfS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/yanzhengma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/image/yyymix.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/js/DatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/js/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/orderDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/orderList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/orderSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/payWeixin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/registerSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMall/web/self_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../17_PersonalBean/Certification-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../17_PersonalBean/Certification-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../17_PersonalBean/Certification-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../17_PersonalBean/悟.htm" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\32_[Resources]_Production GitHub\03_[GitHub]_IDEA Project Develop\25_ShoppingMall\src\SpringBase\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Tgr76OM00kV1vi0ePexGfaiEh4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38bf2b73-52b6-4fe3-8ded-e34f639f868c" name="Default Changelist" comment="" />
+      <created>1573892408811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573892408811</updated>
+      <workItem from="1573892413072" duration="159000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
